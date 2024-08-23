@@ -1,0 +1,52 @@
+[
+  {
+    "id": "201",
+    "key": "c0201",
+    "name": "Omegamon",
+    "short_name": "omega",
+    "stage": "VI",
+    "attribute": "Vaccine",
+    "activity_type": "Normal",
+    "stats": {
+      "bp": "5100",
+      "hp": "3080",
+      "ap": "1120",
+      "critial_hit": "3"
+    },
+    "images": {
+      "default": [
+        "0.png",
+        "1.png"
+      ],
+      "walk": [
+        "2.png",
+        "3.png"
+      ],
+      "run": [
+        "4.png",
+        "5.png"
+      ],
+      "train": [
+        "6.png",
+        "7.png"
+      ],
+      "happy": [
+        "8.png"
+      ],
+      "sleep": [
+        "9.png"
+      ],
+      "attack": [
+        "10.png",
+        "11.png"
+      ],
+      "wallpaper": [
+        "AguGabu_Background.png"
+      ],
+      "banner": [
+        "ui_bnr_dim012.png"
+      ]
+    },
+    "localized_name": "Omnimon"
+  }
+]
