@@ -1,0 +1,691 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "51",
+        "name": "Yuramon",
+        "short_name": "yura",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "52",
+        "name": "Tanemon",
+        "short_name": "tane",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Yuramon",
+                "dim": "HJu, Fairi EX",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "111",
+        "name": "Tinkermon",
+        "short_name": "tinker",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Tanemon",
+                "requirements": {
+                    "deets": [
+                        "1,200+ Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "112",
+        "name": "Pomumon",
+        "short_name": "pomu",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Tanemon",
+                "requirements": {
+                    "deets": [
+                        "0-1,199 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "113",
+        "name": "Fairimon",
+        "short_name": "fairi",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "localized_name": "Kazemon",
+        "prevo": [
+            {
+                "name": "Tinkermon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "114",
+        "name": "Cockatrimon",
+        "short_name": "cockatri",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "localized_name": "Kokatorimon",
+        "prevo": [
+            {
+                "name": "Pomumon",
+                "requirements": {
+                    "deets": [
+                        "0-9 Trophies",
+                        "0-1,299 Vital Values",
+                        "0-7 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "115",
+        "name": "Arbormon",
+        "short_name": "arbor",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Pomumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "116",
+        "name": "Zassoumon",
+        "short_name": "zassou",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "5"
+        },
+        "localized_name": "Weedmon",
+        "prevo": [
+            {
+                "name": "Tinkermon",
+                "requirements": {
+                    "deets": [
+                        "0-9 Trophies",
+                        "0-1,299 Vital Values",
+                        "0-7 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "117",
+        "name": "Jet Silphymon",
+        "short_name": "jetsilphy",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2800",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "localized_name": "JetSilphymon",
+        "prevo": [
+            {
+                "name": "Fairimon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Cockatrimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Arbormon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Zassoumon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "118",
+        "name": "Shutumon",
+        "short_name": "shutu",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "localized_name": "Zepyrmon",
+        "prevo": [
+            {
+                "name": "Fairimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Cockatrimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Arbormon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Zassoumon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "153",
+        "name": "Petaldramon",
+        "short_name": "petaldra",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Arbormon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Fairimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Cockatrimon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Zassoumon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "154",
+        "name": "Peacockmon",
+        "short_name": "peacock",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Cockatrimon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Zassoumon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Fairimon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Arbormon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "155",
+        "name": "Zamielmon",
+        "short_name": "zamiel",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Arbormon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Zassoumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Fairimon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Cockatrimon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "156",
+        "name": "Ancient Irismon",
+        "short_name": "ancientiris",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "2200",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "localized_name": "AncientKazemon",
+        "prevo": [
+            {
+                "name": "Jet Silphymon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shutumon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Peacockmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Petaldramon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Zamielmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "157",
+        "name": "Lotusmon",
+        "short_name": "lotus",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3825",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "localized_name": "Lotosmon",
+        "prevo": [
+            {
+                "name": "Jet Silphymon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Petaldramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Peacockmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shutumon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Zamielmon",
+                "requirements": {
+                    "jogress": "Jogress with Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "158",
+        "name": "Ancient Troiamon",
+        "short_name": "ancienttroia",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "4250",
+            "hp": "3520",
+            "ap": "960",
+            "critial_hit": "4"
+        },
+        "localized_name": "AncientTroymon",
+        "prevo": [
+            {
+                "name": "Petaldramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Zamielmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Jet Silphymon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Shutumon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Peacockmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "159",
+        "name": "Lord Knightmon",
+        "short_name": "lordknight",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1280",
+            "critial_hit": "1"
+        },
+        "localized_name": "Crusadermon",
+        "prevo": [
+            {
+                "name": "Shutumon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Zamielmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Jet Silphymon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Petaldramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Peacockmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

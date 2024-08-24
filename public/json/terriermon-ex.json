@@ -1,0 +1,759 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "279",
+        "name": "Zerimon",
+        "short_name": "zeri",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "280",
+        "name": "Gummymon",
+        "short_name": "gummy",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Zerimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "281",
+        "name": "Terriermon",
+        "short_name": "terrier",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Gummymon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "282",
+        "name": "Galgomon",
+        "short_name": "galgo",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "localized_name": "Gargomon",
+        "prevo": [
+            {
+                "name": "Terriermon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "283",
+        "name": "Turuiemon",
+        "short_name": "turuie",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Terriermon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "317",
+        "name": "Harpymon",
+        "short_name": "harpy",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Terriermon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "284",
+        "name": "Wendimon",
+        "short_name": "wendi",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "5"
+        },
+        "localized_name": "Wendigomon",
+        "prevo": [
+            {
+                "name": "Terriermon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "285",
+        "name": "Rapidmon",
+        "short_name": "rapid",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Galgomon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Turuiemon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Wendimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Harpymon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "286",
+        "name": "Sinduramon",
+        "short_name": "sindura",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1760",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Harpymon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Wendimon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Galgomon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Turuiemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "287",
+        "name": "Makuramon",
+        "short_name": "makura",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Turuiemon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Harpymon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Galgomon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Wendimon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "288",
+        "name": "Andiramon (Deva)",
+        "short_name": "andira_d",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "1000",
+            "critial_hit": "4"
+        },
+        "localized_name": "Antylamon (Good)",
+        "prevo": [
+            {
+                "name": "Galgomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Wendimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Turuiemon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Harpymon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "289",
+        "name": "Pajiramon",
+        "short_name": "pajira",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Turuiemon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Harpymon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Galgomon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Wendimon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "290",
+        "name": "Andiramon",
+        "short_name": "andira",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "1000",
+            "critial_hit": "4"
+        },
+        "localized_name": "Antylamon",
+        "prevo": [
+            {
+                "name": "Galgomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Wendimon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Turuiemon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Harpymon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "291",
+        "name": "Saint Galgomon",
+        "short_name": "saintgalgo",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "3960",
+            "ap": "960",
+            "critial_hit": "3"
+        },
+        "localized_name": "MegaGargomon",
+        "prevo": [
+            {
+                "name": "Rapidmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Makuramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pajiramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Sinduramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Andiramon (Deva)",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Andiramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "292",
+        "name": "Cherubimon (Virtue)",
+        "short_name": "cherubi",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "localized_name": "Cherubimon (Good)",
+        "prevo": [
+            {
+                "name": "Sinduramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Andiramon (Deva)",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Andiramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rapidmon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Makuramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pajiramon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "293",
+        "name": "Cherubimon (Vice)",
+        "short_name": "cherubi_vice",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2200",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "localized_name": "Cherubimon (Evil)",
+        "prevo": [
+            {
+                "name": "Sinduramon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Andiramon (Deva)",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Andiramon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rapidmon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Makuramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pajiramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "294",
+        "name": "Rapidmon (Armor)",
+        "short_name": "rapid_a",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "5100",
+            "hp": "2640",
+            "ap": "1440",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Rapidmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Makuramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pajiramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Sinduramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Andiramon (Deva)",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Andiramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

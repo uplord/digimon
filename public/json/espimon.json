@@ -1,0 +1,745 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "458",
+        "name": "Cotsucomon",
+        "short_name": "cotsuco",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "459",
+        "name": "Kakkinmon",
+        "short_name": "kakkin",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Cotsucomon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "460",
+        "name": "Ludomon",
+        "short_name": "ludo",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Kakkinmon",
+                "requirements": {
+                    "deets": [
+                        "1,200+ Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "461",
+        "name": "Espimon",
+        "short_name": "espi",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Kakkinmon",
+                "requirements": {
+                    "deets": [
+                        "0-1,199 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "462",
+        "name": "Tia Ludomon",
+        "short_name": "tialudo",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "localized_name": "TiaLudomon",
+        "prevo": [
+            {
+                "name": "Ludomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "463",
+        "name": "Hover Espimon",
+        "short_name": "hoverespi",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "localized_name": "HoverEspimon",
+        "prevo": [
+            {
+                "name": "Espimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "464",
+        "name": "Reppamon",
+        "short_name": "reppa",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Ludomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Espimon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "465",
+        "name": "Black Tailmon Uver.",
+        "short_name": "blacktail_u",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "3"
+        },
+        "localized_name": "BlackGatomon Uver.",
+        "prevo": [
+            {
+                "name": "Ludomon",
+                "requirements": {
+                    "deets": [
+                        "0-7 Trophies",
+                        "0-899 Vital Values",
+                        "0-4 Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Espimon",
+                "requirements": {
+                    "deets": [
+                        "0-7 Trophies",
+                        "0-899 Vital Values",
+                        "0-4 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "466",
+        "name": "Raiji Ludomon",
+        "short_name": "raijiludo",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "4"
+        },
+        "localized_name": "RaijiLudomon",
+        "prevo": [
+            {
+                "name": "Tia Ludomon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Reppamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hover Espimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Black Tailmon Uver.",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "131",
+        "name": "Digitamamon",
+        "short_name": "digitama",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "1750",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Fladramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "6+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Lighdramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "6+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "V-dramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "XV-mon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Hover Espimon",
+                "dim": "Espimon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Black Tailmon Uver.",
+                "dim": "Espimon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tia Ludomon",
+                "dim": "Espimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Reppamon",
+                "dim": "Espimon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "467",
+        "name": "Piccolomon",
+        "short_name": "piccolo",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "1320",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "localized_name": "Piximon",
+        "prevo": [
+            {
+                "name": "Hover Espimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Black Tailmon Uver.",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tia Ludomon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Reppamon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "468",
+        "name": "Rare Raremon",
+        "short_name": "rarerare",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "5"
+        },
+        "localized_name": "RareRaremon",
+        "prevo": [
+            {
+                "name": "Tia Ludomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Reppamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hover Espimon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Black Tailmon Uver.",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "469",
+        "name": "Manticoremon",
+        "short_name": "manticore",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Tia Ludomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hover Espimon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Reppamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Black Tailmon Uver.",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "470",
+        "name": "Bryweludramon",
+        "short_name": "bryweludra",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "4250",
+            "hp": "3300",
+            "ap": "960",
+            "critial_hit": "4"
+        },
+        "localized_name": "BryweLudramon",
+        "prevo": [
+            {
+                "name": "Raiji Ludomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Piccolomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Digitamamon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Virus or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Rare Raremon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Manticoremon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "471",
+        "name": "Deathmon (Black)",
+        "short_name": "death_b",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "localized_name": "Ghoulmon (Black)",
+        "prevo": [
+            {
+                "name": "Digitamamon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rare Raremon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Manticoremon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Raiji Ludomon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Virus or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Piccolomon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Virus or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "472",
+        "name": "Devitamamon",
+        "short_name": "devitama",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "3825",
+            "hp": "2200",
+            "ap": "1280",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Raiji Ludomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Digitamamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Piccolomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rare Raremon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Manticoremon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "457",
+        "name": "Ragna Lordmon",
+        "short_name": "ragnalord",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "5100",
+            "hp": "3080",
+            "ap": "1440",
+            "critial_hit": "2"
+        },
+        "localized_name": "RagnaLoardmon",
+        "prevo": [
+            {
+                "name": "Bryweludramon",
+                "dim": "Espimon",
+                "requirements": {
+                    "jogress": "Jogress with Durandamon  from the Espimon Dim\r\n"
+                }
+            },
+            {
+                "name": "Durandamon",
+                "dim": "Ryudamon",
+                "requirements": {
+                    "jogress": "Jogress with Bryweludramon  from the Ryudamon Dim\r\n"
+                }
+            }
+        ]
+    }
+]

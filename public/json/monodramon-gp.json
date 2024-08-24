@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "309",
+        "name": "Ketomon",
+        "short_name": "keto",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "310",
+        "name": "Hopmon",
+        "short_name": "hop",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Ketomon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "311",
+        "name": "Monodramon",
+        "short_name": "monodra",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Hopmon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "312",
+        "name": "Strikedramon",
+        "short_name": "strikedra",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Monodramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "313",
+        "name": "Cyberdramon",
+        "short_name": "cyberdra",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Strikedramon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Data",
+                        "Virus or Free Adult"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "314",
+        "name": "Justimon: Accel Arm",
+        "short_name": "justi_a",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Cyberdramon",
+                "requirements": {
+                    "deets": [
+                        "30+ Trophies",
+                        "4,500+ Vital Values",
+                        "10-24 Battles",
+                        "50%-69% Win Ratio",
+                        "30+ Trophies",
+                        "4,500+ Vital Values",
+                        "25+ Battles",
+                        "50%-69% Win Ratio",
+                        "30+ Trophies",
+                        "4,500+ Vital Values",
+                        "10-24 Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "315",
+        "name": "Justimon: Blitz Arm",
+        "short_name": "justi",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1280",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Cyberdramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "316",
+        "name": "Justimon: Critical Arm",
+        "short_name": "justi_c",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1440",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Cyberdramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "7,000+ Vital Values",
+                        "10+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Free Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

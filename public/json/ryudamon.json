@@ -1,0 +1,708 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "442",
+        "name": "Sakumon",
+        "short_name": "saku",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "443",
+        "name": "Sakuttomon",
+        "short_name": "sakutto",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Sakumon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "444",
+        "name": "Zubamon",
+        "short_name": "zuba",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Sakuttomon",
+                "requirements": {
+                    "deets": [
+                        "1,200+ Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "445",
+        "name": "Ryudamon",
+        "short_name": "ryuda",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Sakuttomon",
+                "requirements": {
+                    "deets": [
+                        "0-1,199 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "446",
+        "name": "Zubaeagermon",
+        "short_name": "zubaeager",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "localized_name": "ZubaEagermon",
+        "prevo": [
+            {
+                "name": "Zubamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "447",
+        "name": "Ginryumon",
+        "short_name": "ginryu",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Ryudamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "448",
+        "name": "Musyamon",
+        "short_name": "musya",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Zubamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Ryudamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "209",
+        "name": "Dokugumon",
+        "short_name": "dokugu",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Gabumon",
+                "dim": "Gabumon EX",
+                "requirements": {
+                    "deets": [
+                        "3+ Trophies",
+                        "500+ Vital Values"
+                    ]
+                }
+            },
+            {
+                "name": "Zubamon",
+                "dim": "Ryudamon",
+                "requirements": {
+                    "deets": [
+                        "0-7 Trophies",
+                        "0-899 Vital Values",
+                        "0-4 Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Ryudamon",
+                "dim": "Ryudamon",
+                "requirements": {
+                    "deets": [
+                        "0-7 Trophies",
+                        "0-899 Vital Values",
+                        "0-4 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "449",
+        "name": "Duramon",
+        "short_name": "dura",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Zubaeagermon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Musyamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Ginryumon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Dokugumon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "450",
+        "name": "Hisyaryumon",
+        "short_name": "hisyaryu",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Ginryumon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dokugumon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Zubaeagermon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Musyamon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "451",
+        "name": "Asuramon",
+        "short_name": "asura",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "1540",
+            "ap": "1000",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Zubaeagermon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Musyamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Ginryumon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Dokugumon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "452",
+        "name": "Gyukimon",
+        "short_name": "gyuki",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Ginryumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dokugumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Zubaeagermon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Musyamon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "453",
+        "name": "Oboromon",
+        "short_name": "oboro",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "1320",
+            "ap": "1200",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Zubaeagermon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Ginryumon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Musyamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dokugumon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "454",
+        "name": "Durandamon",
+        "short_name": "duranda",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2200",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Duramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Asuramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hisyaryumon",
+                "requirements": {
+                    "jogress": "Jogress with Data, Virus or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Gyukimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Oboromon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "455",
+        "name": "Ouryumon",
+        "short_name": "ouryu",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Hisyaryumon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gyukimon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Duramon",
+                "requirements": {
+                    "jogress": "Jogress with Data, Virus or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Oboromon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Asuramon",
+                "requirements": {
+                    "jogress": "Jogress with Data, Virus or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "456",
+        "name": "Zanbamon",
+        "short_name": "zanba",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "3825",
+            "hp": "2200",
+            "ap": "1280",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Duramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hisyaryumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Asuramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gyukimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Oboromon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "457",
+        "name": "Ragna Lordmon",
+        "short_name": "ragnalord",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "5100",
+            "hp": "3080",
+            "ap": "1440",
+            "critial_hit": "2"
+        },
+        "localized_name": "RagnaLoardmon",
+        "prevo": [
+            {
+                "name": "Bryweludramon",
+                "dim": "Espimon",
+                "requirements": {
+                    "jogress": "Jogress with Durandamon  from the Espimon Dim\r\n"
+                }
+            },
+            {
+                "name": "Durandamon",
+                "dim": "Ryudamon",
+                "requirements": {
+                    "jogress": "Jogress with Bryweludramon  from the Ryudamon Dim\r\n"
+                }
+            }
+        ]
+    }
+]

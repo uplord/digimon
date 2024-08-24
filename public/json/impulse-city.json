@@ -1,0 +1,726 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "0",
+        "name": "Dokimon",
+        "short_name": "doki",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "1",
+        "name": "Bibimon",
+        "short_name": "bibi",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Dokimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Pulsemon",
+        "short_name": "pulse",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Bibimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Bulkmon",
+        "short_name": "bulk",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Pulsemon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "1,200+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Exermon",
+        "short_name": "exer",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Pulsemon",
+                "requirements": {
+                    "deets": [
+                        "3+ Trophies",
+                        "500+ Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Runnermon",
+        "short_name": "runner",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Pulsemon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "800+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Namakemon",
+        "short_name": "namake",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Pulsemon",
+                "requirements": {
+                    "deets": [
+                        "0-2 Trophies",
+                        "0-499 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Boutmon",
+        "short_name": "bout",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Bulkmon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Runnermon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Exermon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Namakemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Shootmon",
+        "short_name": "shoot",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Exermon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Namakemon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Runnermon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Divemon",
+        "short_name": "dive",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Bulkmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Runnermon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Namakemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Tempomon",
+        "short_name": "tempo",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Exermon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Namakemon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Bulkmon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Runnermon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Climbmon",
+        "short_name": "climb",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Bulkmon",
+                "requirements": {
+                    "deets": [
+                        "6+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Namakemon",
+                "requirements": {
+                    "deets": [
+                        "6+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Exermon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Pistmon",
+        "short_name": "pist",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "1750",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Exermon",
+                "requirements": {
+                    "deets": [
+                        "6+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Runnermon",
+                "requirements": {
+                    "deets": [
+                        "6+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Bulkmon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Kazuchimon",
+        "short_name": "kazuchi",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Boutmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tempomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pistmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shootmon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Climbmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Divemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Shivamon",
+        "short_name": "shiva",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "3825",
+            "hp": "3520",
+            "ap": "960",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Shootmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Divemon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Climbmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pistmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Tempomon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Boutmon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Achillesmon",
+        "short_name": "achilles",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Shootmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tempomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pistmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Divemon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Boutmon",
+                "requirements": {
+                    "jogress": "Jogress with Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Climbmon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Shroudmon",
+        "short_name": "shroud",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "5100",
+            "hp": "3520",
+            "ap": "1120",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Boutmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Divemon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Climbmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shootmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Tempomon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Pistmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

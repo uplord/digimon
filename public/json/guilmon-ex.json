@@ -1,0 +1,797 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "262",
+        "name": "Jyarimon",
+        "short_name": "jyari",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "263",
+        "name": "Gigimon",
+        "short_name": "gigi",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Jyarimon",
+                "dim": "Guilmon EX, Guilmon GP",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "264",
+        "name": "Guilmon",
+        "short_name": "guil",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Gigimon",
+                "dim": "Guilmon EX, Guilmon GP",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "265",
+        "name": "Siesamon",
+        "short_name": "siesa",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Guilmon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "266",
+        "name": "Growmon (Orange)",
+        "short_name": "grow_o",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "localized_name": "Growlmon (Yellow)",
+        "prevo": [
+            {
+                "name": "Guilmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "267",
+        "name": "Growmon",
+        "short_name": "grow",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "localized_name": "Growlmon",
+        "prevo": [
+            {
+                "name": "Guilmon",
+                "dim": "Guilmon EX, Guilmon GP",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "268",
+        "name": "Devidramon",
+        "short_name": "devidra",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Guilmon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "269",
+        "name": "Vajramon",
+        "short_name": "vajra",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Siesamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Devidramon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Growmon (Orange)",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Growmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "270",
+        "name": "Majiramon",
+        "short_name": "majira",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Siesamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Devidramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Growmon (Orange)",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Growmon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "271",
+        "name": "Mihiramon",
+        "short_name": "mihira",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "1760",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Siesamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Growmon (Orange)",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Growmon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Devidramon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "272",
+        "name": "Megalo Growmon (Orange)",
+        "short_name": "megalogrow_o",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "4"
+        },
+        "localized_name": "WarGrowlmon (Yellow)",
+        "prevo": [
+            {
+                "name": "Growmon (Orange)",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Growmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Siesamon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Devidramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "273",
+        "name": "Megalo Growmon",
+        "short_name": "megalogrow",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "2"
+        },
+        "localized_name": "WarGrowlmon",
+        "prevo": [
+            {
+                "name": "Growmon",
+                "dim": "Guilmon EX, Guilmon GP",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Growmon (Orange)",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Siesamon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Devidramon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Growmon",
+                "dim": "Guilmon GP",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "274",
+        "name": "Sandiramon",
+        "short_name": "sandira",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Growmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Devidramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Siesamon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Growmon (Orange)",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "276",
+        "name": "Dukemon",
+        "short_name": "duke",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "localized_name": "Gallantmon",
+        "prevo": [
+            {
+                "name": "Vajramon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Majiramon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mihiramon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Megalo Growmon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Megalo Growmon (Orange)",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Sandiramon",
+                "dim": "Guilmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Megalo Growmon",
+                "dim": "Guilmon GP",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Vaccine Perfect"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "330",
+        "name": "Dukemon X",
+        "short_name": "duke_x",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4675",
+            "hp": "3520",
+            "ap": "1120",
+            "critial_hit": "1"
+        },
+        "localized_name": "Gallantmon X",
+        "prevo": [
+            {
+                "name": "Mihiramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Megalo Growmon (Orange)",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Sandiramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Vajramon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Majiramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Megalo Growmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "277",
+        "name": "Megidramon",
+        "short_name": "megidra",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "5100",
+            "hp": "2640",
+            "ap": "1440",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Vajramon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Majiramon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Megalo Growmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mihiramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Megalo Growmon (Orange)",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Sandiramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "278",
+        "name": "Dukemon: Crimson Mode",
+        "short_name": "duke_c",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "5950",
+            "hp": "3520",
+            "ap": "1440",
+            "critial_hit": "2"
+        },
+        "localized_name": "Gallantmon: Crimson Mode",
+        "prevo": [
+            {
+                "name": "Megalo Growmon (Orange)",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Megalo Growmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Sandiramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Vajramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Majiramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Mihiramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

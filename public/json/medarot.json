@@ -1,0 +1,499 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "413",
+        "name": "Weathered Medal",
+        "short_name": "weatheredmedal",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "414",
+        "name": "Medal",
+        "short_name": "medal",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Weathered Medal",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "415",
+        "name": "Tinpet",
+        "short_name": "tinpet",
+        "stage": "III",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Medal",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "190",
+        "name": "Greymon",
+        "short_name": "grey",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Agumon",
+                "dim": "Agumon EX",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "1,200+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Agumon (Black)",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Agumon",
+                "dim": "Dinosaur Roar",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Tinpet",
+                "dim": "Medarot",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "207",
+        "name": "Garurumon",
+        "short_name": "garuru",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Gabumon",
+                "dim": "Gabumon EX",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "1,200+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Gabumon (Black)",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Gabumon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Tinpet",
+                "dim": "Medarot",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "416",
+        "name": "Metabee (Head and Arm)",
+        "short_name": "metabee_p",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2400",
+            "hp": "2400",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Tinpet",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "417",
+        "name": "Rokusho (Head and Arm)",
+        "short_name": "rokusho_p",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "2400",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Tinpet",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "418",
+        "name": "Grey Wars",
+        "short_name": "greywars",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "localized_name": "GreyWars",
+        "prevo": [
+            {
+                "name": "Greymon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "419",
+        "name": "Garuru Metal",
+        "short_name": "garurumetal",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "localized_name": "GaruruMetal",
+        "prevo": [
+            {
+                "name": "Garurumon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "420",
+        "name": "Metabee",
+        "short_name": "metabee",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Greymon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Garurumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Metabee (Head and Arm)",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rokusho (Head and Arm)",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "421",
+        "name": "Rokusho",
+        "short_name": "rokusho",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Greymon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Garurumon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Metabee (Head and Arm)",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rokusho (Head and Arm)",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "422",
+        "name": "Omega Knight",
+        "short_name": "omegaknight",
+        "stage": "VI",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "5100",
+            "hp": "3300",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "localized_name": "OmegaKnight",
+        "prevo": [
+            {
+                "name": "Grey Wars",
+                "requirements": {
+                    "jogress": "Jogress with Garuru Metal  from the Medarot Dim\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "423",
+        "name": "Omedamon",
+        "short_name": "omeda",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4250",
+            "hp": "3080",
+            "ap": "960",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Grey Wars",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Garuru Metal",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Metabee",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rokusho",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    }
+]

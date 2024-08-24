@@ -1,0 +1,863 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "136",
+        "name": "Yukimibotamon",
+        "short_name": "yukimibota",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "localized_name": "SnowBotamon"
+    },
+    {
+        "id": "137",
+        "name": "Hiyarimon",
+        "short_name": "hiyari",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Yukimibotamon",
+                "dim": "BFa, Chack EX",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "138",
+        "name": "Blucomon",
+        "short_name": "bluco",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Hiyarimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "139",
+        "name": "Yukidarumon",
+        "short_name": "yukidaru",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "localized_name": "Frigimon",
+        "prevo": [
+            {
+                "name": "Blucomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "140",
+        "name": "Paledramon",
+        "short_name": "paledra",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Blucomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "141",
+        "name": "Hyougamon",
+        "short_name": "hyouga",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "localized_name": "Hyogamon",
+        "prevo": [
+            {
+                "name": "Blucomon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "142",
+        "name": "Moosemon",
+        "short_name": "moose",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Blucomon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "143",
+        "name": "Mammon",
+        "short_name": "mam",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "localized_name": "Mammothmon",
+        "prevo": [
+            {
+                "name": "Yukidarumon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Moosemon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hyougamon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Paledramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "144",
+        "name": "Panjyamon",
+        "short_name": "panjya",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "localized_name": "IceLeomon",
+        "prevo": [
+            {
+                "name": "Paledramon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hyougamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Moosemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Yukidarumon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "145",
+        "name": "Crys Paledramon",
+        "short_name": "cryspaledra",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "3"
+        },
+        "localized_name": "CrysPaledramon",
+        "prevo": [
+            {
+                "name": "Paledramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hyougamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Moosemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "146",
+        "name": "Crescemon",
+        "short_name": "cresce",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Yukidarumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Moosemon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Paledramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "147",
+        "name": "Frozomon",
+        "short_name": "frozo",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Paledramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hyougamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Yukidarumon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "148",
+        "name": "Daipenmon",
+        "short_name": "daipen",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Yukidarumon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Moosemon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hyougamon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Chackmon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gryzmon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Icemon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Mojyamon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "149",
+        "name": "Skull Mammon",
+        "short_name": "skullmam",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3825",
+            "hp": "2640",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "localized_name": "SkullMammothmon",
+        "prevo": [
+            {
+                "name": "Mammon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Panjyamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Daipenmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Crescemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Crys Paledramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Frozomon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "150",
+        "name": "Hexeblaumon",
+        "short_name": "hexeblau",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Crys Paledramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Crescemon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Frozomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Daipenmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Mammon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Panjyamon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "151",
+        "name": "Fros Velgrmon",
+        "short_name": "frosvelgr",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4250",
+            "hp": "3520",
+            "ap": "1280",
+            "critial_hit": "1"
+        },
+        "localized_name": "FrosVelgrmon",
+        "prevo": [
+            {
+                "name": "Panjyamon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Crescemon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Daipenmon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Crys Paledramon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Frozomon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Mammon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Blizzarmon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Nanomon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Vaccine or Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Panjyamon X",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Astamon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "152",
+        "name": "Ancient Megatheriumon",
+        "short_name": "ancientmegatheriu",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "5100",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "4"
+        },
+        "localized_name": "AncientMegatheriumon",
+        "prevo": [
+            {
+                "name": "Mammon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Crys Paledramon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Frozomon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Crescemon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Daipenmon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Panjyamon",
+                "dim": "Blizzard Fang",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Daipenmon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Panjyamon X",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,500+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Blizzarmon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Astamon",
+                "dim": "Chackmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    }
+]

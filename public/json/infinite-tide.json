@@ -1,0 +1,754 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "34",
+        "name": "Pitchmon",
+        "short_name": "pitch",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "localized_name": "Pitimon"
+    },
+    {
+        "id": "35",
+        "name": "Pukamon",
+        "short_name": "puka",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "localized_name": "Bukamon",
+        "prevo": [
+            {
+                "name": "Pitchmon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "name": "Sangomon",
+        "short_name": "sango",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Pukamon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Tobiumon",
+        "short_name": "tobiu",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Sangomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Seadramon",
+        "short_name": "seadra",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Sangomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Shellmon",
+        "short_name": "shell",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Sangomon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Octmon",
+        "short_name": "oct",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "5"
+        },
+        "localized_name": "Octomon",
+        "prevo": [
+            {
+                "name": "Sangomon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Gusokumon",
+        "short_name": "gusoku",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2450",
+            "hp": "3080",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Tobiumon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shellmon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Octmon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Seadramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Marin Chimairamon",
+        "short_name": "marinchimaira",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "1000",
+            "critial_hit": "2"
+        },
+        "localized_name": "MarineKimeramon",
+        "prevo": [
+            {
+                "name": "Seadramon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Octmon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shellmon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Tobiumon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Mermaimon",
+        "short_name": "mermai",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Tobiumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Shellmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Vaccine Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Octmon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Seadramon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Mega Seadramon",
+        "short_name": "megaseadra",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "localized_name": "MegaSeadramon",
+        "prevo": [
+            {
+                "name": "Seadramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Octmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tobiumon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Piranimon",
+        "short_name": "pirani",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Tobiumon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Seadramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Octmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Shellmon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "46",
+        "name": "Dagomon",
+        "short_name": "dago",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "5"
+        },
+        "localized_name": "Dragomon",
+        "prevo": [
+            {
+                "name": "Shellmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Octmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Seadramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Tobiumon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Neptunemon",
+        "short_name": "neptune",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "3825",
+            "hp": "3520",
+            "ap": "1280",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Gusokumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mermaimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Piranimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dagomon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Marin Chimairamon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Mega Seadramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Metal Seadramon",
+        "short_name": "metalseadra",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "3960",
+            "ap": "960",
+            "critial_hit": "2"
+        },
+        "localized_name": "MetalSeadramon",
+        "prevo": [
+            {
+                "name": "Mermaimon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mega Seadramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dagomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gusokumon",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Marin Chimairamon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Piranimon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Regalecusmon",
+        "short_name": "regalecus",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "3080",
+            "ap": "1280",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Gusokumon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Marin Chimairamon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Piranimon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dagomon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Mega Seadramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Mermaimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Plesiomon",
+        "short_name": "plesio",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "5950",
+            "hp": "2640",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Marin Chimairamon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mega Seadramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dagomon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gusokumon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Mermaimon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Piranimon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Free Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

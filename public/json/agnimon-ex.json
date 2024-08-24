@@ -1,0 +1,752 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "228",
+        "name": "Mokumon",
+        "short_name": "moku",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "229",
+        "name": "Peti Meramon",
+        "short_name": "petimera",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "localized_name": "DemiMeramon",
+        "prevo": [
+            {
+                "name": "Mokumon",
+                "dim": "VBe, Agni EX",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "81",
+        "name": "Flamon",
+        "short_name": "fla",
+        "stage": "III",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "localized_name": "Flamemon",
+        "prevo": [
+            {
+                "name": "Peti Meramon",
+                "requirements": {
+                    "deets": [
+                        "1,200+ Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "82",
+        "name": "Gottsumon",
+        "short_name": "gottsu",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "4"
+        },
+        "localized_name": "Gotsumon",
+        "prevo": [
+            {
+                "name": "Peti Meramon",
+                "requirements": {
+                    "deets": [
+                        "0-1,199 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "83",
+        "name": "Agnimon",
+        "short_name": "agni",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "localized_name": "Agunimon",
+        "prevo": [
+            {
+                "name": "Flamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "232",
+        "name": "Meramon",
+        "short_name": "mera",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Vorvomon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Flamon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "deets": [
+                        "0-9 Trophies",
+                        "0-1,299 Vital Values",
+                        "0-7 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "84",
+        "name": "Starmon",
+        "short_name": "star",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Gottsumon",
+                "requirements": {
+                    "deets": [
+                        "0+ Trophies",
+                        "0+ Vital Values",
+                        "0+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "102",
+        "name": "Grottemon",
+        "short_name": "grotte",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "localized_name": "Grumblemon",
+        "prevo": [
+            {
+                "name": "Gottsumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "103",
+        "name": "Aldamon",
+        "short_name": "alda",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Agnimon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Meramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Starmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Grottemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "104",
+        "name": "Vritramon",
+        "short_name": "vritra",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2800",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "localized_name": "BurningGreymon",
+        "prevo": [
+            {
+                "name": "Agnimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Meramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Starmon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Grottemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "105",
+        "name": "Super Starmon",
+        "short_name": "superstar",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "localized_name": "SuperStarmon",
+        "prevo": [
+            {
+                "name": "Starmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Grottemon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Agnimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Meramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "106",
+        "name": "Gigasmon",
+        "short_name": "gigas",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Grottemon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Agnimon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Meramon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Starmon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "107",
+        "name": "Dark Super Starmon",
+        "short_name": "darksuperstar",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "800",
+            "critial_hit": "4"
+        },
+        "localized_name": "DarkSuperStarmon",
+        "prevo": [
+            {
+                "name": "Meramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Starmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Agnimon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Grottemon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "108",
+        "name": "Kaiser Greymon",
+        "short_name": "kaisergrey",
+        "stage": "VI",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2200",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "localized_name": "EmperorGreymon",
+        "prevo": [
+            {
+                "name": "Aldamon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Vritramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Super Starmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gigasmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Dark Super Starmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "109",
+        "name": "Ancient Greymon",
+        "short_name": "ancientgrey",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "localized_name": "AncientGreymon",
+        "prevo": [
+            {
+                "name": "Aldamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Vritramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gigasmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dark Super Starmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Super Starmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Virus or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "244",
+        "name": "Ancient Volcamon",
+        "short_name": "ancientvolca",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4675",
+            "hp": "3960",
+            "ap": "1120",
+            "critial_hit": "1"
+        },
+        "localized_name": "AncientVolcamon",
+        "prevo": [
+            {
+                "name": "Flaremon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Death Meramon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Volcamon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Groundramon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Lavogaritamon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Master Tyranomon",
+                "dim": "Volcanic Beat",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Super Starmon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gigasmon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dark Super Starmon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Aldamon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Vritramon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "110",
+        "name": "Susanoomon",
+        "short_name": "susanoo",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "5525",
+            "hp": "2640",
+            "ap": "1920",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Kaiser Greymon",
+                "dim": "Agnimon EX",
+                "requirements": {
+                    "jogress": "Jogress with Magna Garurumon  from the Wolfmon Dim\r\n"
+                }
+            },
+            {
+                "name": "Magna Garurumon",
+                "dim": "Wolfmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Kaiser Greymon  from the Agnimon Dim\r\n"
+                }
+            }
+        ]
+    }
+]

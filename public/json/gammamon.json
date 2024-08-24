@@ -1,0 +1,495 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "318",
+        "name": "Curimon",
+        "short_name": "curi",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "319",
+        "name": "Gurimon",
+        "short_name": "guri",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Curimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "320",
+        "name": "Gammamon",
+        "short_name": "gamma",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Gurimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "321",
+        "name": "Betel Gammamon",
+        "short_name": "betelgamma",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Gammamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,100+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "322",
+        "name": "Kaus Gammamon",
+        "short_name": "kausgamma",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Gammamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "323",
+        "name": "Wezen Gammamon",
+        "short_name": "wezengamma",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Gammamon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "324",
+        "name": "Gulus Gammamon",
+        "short_name": "gulusgamma",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Gammamon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "325",
+        "name": "Canoweissmon",
+        "short_name": "canoweiss",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Betel Gammamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Data Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Kaus Gammamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Wezen Gammamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gulus Gammamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "327",
+        "name": "Brachiomon",
+        "short_name": "brachio",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2100",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Betel Gammamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Kaus Gammamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "328",
+        "name": "Chimairamon",
+        "short_name": "chimaira",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "localized_name": "Kimeramon",
+        "prevo": [
+            {
+                "name": "Betel Gammamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Free Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Gulus Gammamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "329",
+        "name": "Tankdramon",
+        "short_name": "tankdra",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Wezen Gammamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Betel Gammamon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "331",
+        "name": "Aegisdramon",
+        "short_name": "aegisdra",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Canoweissmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Tankdramon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "333",
+        "name": "Ultimate Brachiomon",
+        "short_name": "ultimatebrachi",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "960",
+            "critial_hit": "4"
+        },
+        "localized_name": "UltimateBrachiomon",
+        "prevo": [
+            {
+                "name": "Canoweissmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio",
+                        "Jogress with Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Brachiomon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Chimairamon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "334",
+        "name": "Chaosdramon",
+        "short_name": "chaosdra",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "3520",
+            "ap": "960",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Canoweissmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Brachiomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Chimairamon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tankdramon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    }
+]

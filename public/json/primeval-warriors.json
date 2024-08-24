@@ -1,0 +1,932 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "68",
+        "name": "Leafmon",
+        "short_name": "leaf",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "69",
+        "name": "Minomon",
+        "short_name": "mino",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Leafmon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "70",
+        "name": "Wormmon",
+        "short_name": "worm",
+        "stage": "III",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Minomon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "71",
+        "name": "Stingmon",
+        "short_name": "sting",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Wormmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "72",
+        "name": "Shadramon",
+        "short_name": "shadra",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Wormmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "73",
+        "name": "Hudiemon",
+        "short_name": "hudie",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Wormmon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "74",
+        "name": "Gokimon",
+        "short_name": "goki",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "5"
+        },
+        "localized_name": "Roachmon",
+        "prevo": [
+            {
+                "name": "Wormmon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Jewelbeemon",
+        "short_name": "jewelbee",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Snimon",
+                "dim": "Hermit in the Jungle",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Sunflowmon",
+                "dim": "Hermit in the Jungle",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Parasaurmon",
+                "dim": "Hermit in the Jungle",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Vegimon",
+                "dim": "Hermit in the Jungle",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Stingmon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hudiemon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gokimon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Shadramon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "127",
+        "name": "Paildramon",
+        "short_name": "paildra",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "600",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "XV-mon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Lighdramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Fladramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Stingmon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hudiemon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gokimon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Shadramon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "129",
+        "name": "Dinobeemon",
+        "short_name": "dinobee",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2100",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "XV-mon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Lighdramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "V-dramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Shadramon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gokimon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hudiemon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Stingmon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "75",
+        "name": "Kongoumon",
+        "short_name": "kongou",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "600",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Shadramon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gokimon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hudiemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Stingmon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "76",
+        "name": "Pucchiemon",
+        "short_name": "pucchie",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1540",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "localized_name": "Bucchiemon",
+        "prevo": [
+            {
+                "name": "Shadramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gokimon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hudiemon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Stingmon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "77",
+        "name": "Pucchiemon (Green)",
+        "short_name": "pucchie_g",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "localized_name": "Bucchiemon (Green)",
+        "prevo": [
+            {
+                "name": "Stingmon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Hudiemon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gokimon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Shadramon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "78",
+        "name": "Bancho Stingmon",
+        "short_name": "banchosting",
+        "stage": "VI",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "localized_name": "BanchoStingmon",
+        "prevo": [
+            {
+                "name": "Jewelbeemon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Kongoumon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pucchiemon (Green)",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dinobeemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Paildramon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pucchiemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "79",
+        "name": "Gran Kuwagamon",
+        "short_name": "grankuwaga",
+        "stage": "VI",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "3520",
+            "ap": "960",
+            "critial_hit": "2"
+        },
+        "localized_name": "GranKuwagamon",
+        "prevo": [
+            {
+                "name": "Jewelbeemon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Kongoumon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pucchiemon (Green)",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dinobeemon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Paildramon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pucchiemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "133",
+        "name": "Imperialdramon: Dragon Mode",
+        "short_name": "imperialdra_d",
+        "stage": "VI",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "3825",
+            "hp": "3520",
+            "ap": "960",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Aero V-dramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Paildramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dinobeemon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gold V-dramon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Sagittarimon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Digitamamon",
+                "dim": "Ancient Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Dinobeemon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Paildramon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pucchiemon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Jewelbeemon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Kongoumon",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pucchiemon (Green)",
+                "dim": "Primeval Warriors",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "80",
+        "name": "Imperialdramon: Paladin Mode",
+        "short_name": "imperialdra_p",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "5100",
+            "hp": "2640",
+            "ap": "1440",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Dinobeemon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Paildramon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pucchiemon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Jewelbeemon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data or Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Kongoumon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Pucchiemon (Green)",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

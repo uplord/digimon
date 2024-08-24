@@ -1,0 +1,521 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "204",
+        "name": "Punimon",
+        "short_name": "puni",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "205",
+        "name": "Tunomon",
+        "short_name": "tuno",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "localized_name": "Tsunomon",
+        "prevo": [
+            {
+                "name": "Punimon",
+                "dim": "Gabumon EX, True Shadow Howl, Wolf Howl, Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "224",
+        "name": "Gabumon (Black)",
+        "short_name": "gabu_b",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Tunomon",
+                "dim": "True Shadow Howl, Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            },
+            {
+                "name": "Tunomon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "0-1,199 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "225",
+        "name": "Garurumon (Black)",
+        "short_name": "garuru_b",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Gabumon (Black)",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Gabumon (Black)",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Gabumon (Black)",
+                "dim": "Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "1,200+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "226",
+        "name": "Were Garurumon (Black)",
+        "short_name": "weregaruru_b",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Garurumon (Black)",
+                "dim": "Wolf Howl, Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Garurumon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Garurumon (Black)",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Free Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Drimogemon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Garurumon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "jogress": "Jogress with Data, Virus or Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Drimogemon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Dorulumon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "227",
+        "name": "Metal Garurumon (Black)",
+        "short_name": "metalgaruru_b",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3825",
+            "hp": "3080",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Were Garurumon (Black)",
+                "dim": "True Shadow Howl, Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Cerberumon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Rhinomon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Were Garurumon: Saggitarius Mode",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pandamon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Jaeger Dorulumon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Pandamon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Virus or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Jaeger Dorulumon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Were Garurumon",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "jogress": "Jogress with Data, Virus or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Were Garurumon (Black)",
+                "dim": "Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "223",
+        "name": "Omegamon Zwart",
+        "short_name": "omega_z",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "5100",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "localized_name": "Omnimon Zwart",
+        "prevo": [
+            {
+                "name": "Black War Greymon",
+                "dim": "Mad Black Roar, Black Roar",
+                "requirements": {
+                    "jogress": "Jogress with Metal Garurumon (Black)  from the True Shadow Howl Dim\r\n"
+                }
+            },
+            {
+                "name": "Metal Garurumon (Black)",
+                "dim": "True Shadow Howl, Shadow Howl",
+                "requirements": {
+                    "jogress": "Jogress with Black War Greymon  from the Mad Black Roar Dim\r\n"
+                }
+            },
+            {
+                "name": "Metal Greymon: Alterous Mode",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mametyramon",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Metal Greymon (Virus)",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Ex-Tyranomon",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Vermillimon",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Skull Greymon",
+                "dim": "Mad Black Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Were Garurumon: Saggitarius Mode",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Were Garurumon (Black)",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Jaeger Dorulumon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Cerberumon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Rhinomon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Pandamon",
+                "dim": "True Shadow Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Black War Greymon",
+                "dim": "Dinosaur Roar",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "30+ Trophies",
+                        "8,500+ Vital Values",
+                        "30+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Metal Garurumon (Black)",
+                "dim": "Wolf Howl",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "30+ Trophies",
+                        "8,500+ Vital Values",
+                        "30+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    }
+]

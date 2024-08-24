@@ -1,0 +1,547 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "369",
+        "name": "Puyomon",
+        "short_name": "puyo",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "370",
+        "name": "Puyoyomon",
+        "short_name": "puyoyo",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Puyomon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "371",
+        "name": "Jellymon",
+        "short_name": "jelly",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Puyoyomon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "372",
+        "name": "Rukamon",
+        "short_name": "ruka",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "localized_name": "Dolphmon",
+        "prevo": [
+            {
+                "name": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,100+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "373",
+        "name": "Tesla Jellymon",
+        "short_name": "teslajelly",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "3000",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "localized_name": "TeslaJellymon",
+        "prevo": [
+            {
+                "name": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "374",
+        "name": "Gesomon",
+        "short_name": "geso",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "5"
+        },
+        "prevo": [
+            {
+                "name": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "375",
+        "name": "Manbomon",
+        "short_name": "manbo",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "376",
+        "name": "Whamon",
+        "short_name": "wha",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Rukamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tesla Jellymon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Vaccine Adult"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "378",
+        "name": "Thetismon",
+        "short_name": "thetis",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Rukamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Tesla Jellymon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Free Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Manbomon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "379",
+        "name": "Hangyomon",
+        "short_name": "hangyo",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2100",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "localized_name": "Divermon",
+        "prevo": [
+            {
+                "name": "Gesomon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Manbomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "380",
+        "name": "Marin Devimon",
+        "short_name": "marindevi",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "800",
+            "critial_hit": "4"
+        },
+        "localized_name": "MarineDevimon",
+        "prevo": [
+            {
+                "name": "Tesla Jellymon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Virus Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Gesomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "382",
+        "name": "Marin Angemon",
+        "short_name": "marinange",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "localized_name": "MarineAngemon",
+        "prevo": [
+            {
+                "name": "Whamon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Thetismon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Vaccine Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Marin Devimon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "383",
+        "name": "Ancient Mermaimon",
+        "short_name": "ancientmermai",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4675",
+            "hp": "3300",
+            "ap": "960",
+            "critial_hit": "1"
+        },
+        "localized_name": "AncientMermaimon",
+        "prevo": [
+            {
+                "name": "Thetismon",
+                "dim": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio",
+                        "Jogress with Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Hangyomon",
+                "dim": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Marin Devimon",
+                "dim": "Jellymon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Calamaramon",
+                "dim": "Wolfmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Sirenmon",
+                "dim": "Wolfmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Splashmon",
+                "dim": "Wolfmon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Beowolfmon",
+                "dim": "Wolfmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data, or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Garummon",
+                "dim": "Wolfmon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data, or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "385",
+        "name": "Pukumon",
+        "short_name": "puku",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4675",
+            "hp": "2860",
+            "ap": "960",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Whamon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Thetismon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Hangyomon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,783 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "407",
+        "name": "Popomon",
+        "short_name": "popo",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "408",
+        "name": "Frimon",
+        "short_name": "fri",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Popomon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "409",
+        "name": "Liollmon",
+        "short_name": "lioll",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Frimon",
+                "requirements": {
+                    "deets": [
+                        "1,200+ Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "410",
+        "name": "Gazimon",
+        "short_name": "gazi",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Frimon",
+                "requirements": {
+                    "deets": [
+                        "0-1,199 Vital Values"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "411",
+        "name": "Louwemon",
+        "short_name": "louwe",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "localized_name": "Loweemon",
+        "prevo": [
+            {
+                "name": "Liollmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "412",
+        "name": "Liamon",
+        "short_name": "lia",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Liollmon",
+                "requirements": {
+                    "deets": [
+                        "0-9 Trophies",
+                        "0-1,299 Vital Values",
+                        "0-7 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "433",
+        "name": "Duskmon",
+        "short_name": "dusk",
+        "stage": "IV",
+        "attribute": "Free",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Gazimon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "434",
+        "name": "Mad Leomon",
+        "short_name": "madleo",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "4"
+        },
+        "localized_name": "MadLeomon",
+        "prevo": [
+            {
+                "name": "Gazimon",
+                "requirements": {
+                    "deets": [
+                        "0-9 Trophies",
+                        "0+ Vital Values",
+                        "0-7 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "435",
+        "name": "Raihimon",
+        "short_name": "raihi",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2800",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "3"
+        },
+        "localized_name": "Rhihimon",
+        "prevo": [
+            {
+                "name": "Louwemon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Liamon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Duskmon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Mad Leomon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "436",
+        "name": "Kaiser Leomon",
+        "short_name": "kaiserleo",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "1980",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "localized_name": "JagerLoweemon",
+        "prevo": [
+            {
+                "name": "Louwemon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Liamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Duskmon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Mad Leomon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "92",
+        "name": "Loader Leomon",
+        "short_name": "loaderlio",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "3080",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "localized_name": "LoaderLeomon",
+        "prevo": [
+            {
+                "name": "Machmon",
+                "dim": "Nu Metal Empire",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Raremon",
+                "dim": "Nu Metal Empire",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Ballistamon",
+                "dim": "Nu Metal Empire",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Mail Birdramon",
+                "dim": "Nu Metal Empire",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Liamon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mad Leomon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Louwemon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Duskmon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "437",
+        "name": "Velgrmon",
+        "short_name": "velgr",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "localized_name": "Velgemon",
+        "prevo": [
+            {
+                "name": "Duskmon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Louwemon",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Liamon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Mad Leomon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "438",
+        "name": "Skull Satamon",
+        "short_name": "skullsata",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2100",
+            "hp": "1540",
+            "ap": "800",
+            "critial_hit": "4"
+        },
+        "localized_name": "SkullSatamon",
+        "prevo": [
+            {
+                "name": "Duskmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mad Leomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Louwemon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            },
+            {
+                "name": "Liamon",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "439",
+        "name": "Lucemon: Falldown Mode",
+        "short_name": "luce_f",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4900",
+            "hp": "3080",
+            "ap": "1800",
+            "critial_hit": "1"
+        },
+        "localized_name": "Lucemon: Chaos Mode",
+        "prevo": [
+            {
+                "name": "Duskmon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "4,500+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Mad Leomon",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "4,500+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "440",
+        "name": "Deathmon",
+        "short_name": "death",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "2"
+        },
+        "localized_name": "Ghoulmon",
+        "prevo": [
+            {
+                "name": "Kaiser Leomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Velgrmon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Skull Satamon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Raihimon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Loader Leomon",
+                "requirements": {
+                    "jogress": "Jogress with Data, Virus or Free Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "441",
+        "name": "Dinotigermon",
+        "short_name": "dinotiger",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "3825",
+            "hp": "2640",
+            "ap": "960",
+            "critial_hit": "4"
+        },
+        "localized_name": "DinoTigermon",
+        "prevo": [
+            {
+                "name": "Raihimon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Loader Leomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Velgrmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Skull Satamon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Kaiser Leomon",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Virus Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Ancient Sphinxmon",
+        "short_name": "ancientsphinx",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "5950",
+            "hp": "2640",
+            "ap": "1280",
+            "critial_hit": "4"
+        },
+        "localized_name": "AncientSphinxmon",
+        "prevo": [
+            {
+                "name": "Jyagamon",
+                "dim": "Titan of Dust",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Scorpiomon",
+                "dim": "Titan of Dust",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Stage 15 cleared",
+                        "Jogress with Vaccine or Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Mummymon",
+                "dim": "Titan of Dust",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Gogmamon",
+                "dim": "Titan of Dust",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Triceramon",
+                "dim": "Titan of Dust",
+                "requirements": {
+                    "deets": [
+                        "Stage 15 cleared",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Raihimon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Kaiser Leomon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Loader Leomon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Velgrmon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Virus Perfect\r\n"
+                }
+            },
+            {
+                "name": "Skull Satamon",
+                "dim": "Louwemon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+                }
+            }
+        ]
+    }
+]

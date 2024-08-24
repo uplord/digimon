@@ -1,0 +1,500 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "352",
+        "name": "Pyonmon",
+        "short_name": "pyon",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "353",
+        "name": "Bosamon",
+        "short_name": "bosa",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Pyonmon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "354",
+        "name": "Angoramon",
+        "short_name": "angora",
+        "stage": "III",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Bosamon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "355",
+        "name": "Symbare Angoramon",
+        "short_name": "symbareangora",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "3000",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "localized_name": "SymbareAngoramon",
+        "prevo": [
+            {
+                "name": "Angoramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,100+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "356",
+        "name": "Leomon",
+        "short_name": "leo",
+        "stage": "IV",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "1"
+        },
+        "prevo": [
+            {
+                "name": "Angoramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "357",
+        "name": "Komondomon",
+        "short_name": "komondo",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "1800",
+            "hp": "1600",
+            "ap": "600",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Angoramon",
+                "requirements": {
+                    "deets": [
+                        "5+ Trophies",
+                        "600+ Vital Values",
+                        "3+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "358",
+        "name": "Porcupamon",
+        "short_name": "porcupa",
+        "stage": "IV",
+        "attribute": "Virus",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "2400",
+            "hp": "2000",
+            "ap": "900",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Angoramon",
+                "requirements": {
+                    "deets": [
+                        "0-4 Trophies",
+                        "0-599 Vital Values",
+                        "0-2 Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "359",
+        "name": "Lamortmon",
+        "short_name": "lamort",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Symbare Angoramon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Data Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Komondomon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Leomon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Porcupamon",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "360",
+        "name": "Grappu Leomon",
+        "short_name": "grappuleo",
+        "stage": "V",
+        "attribute": "Vaccine",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2100",
+            "hp": "2200",
+            "ap": "1000",
+            "critial_hit": "2"
+        },
+        "localized_name": "GrapLeomon",
+        "prevo": [
+            {
+                "name": "Symbare Angoramon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Leomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "361",
+        "name": "Skull Baluchimon",
+        "short_name": "skullbaluchi",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "800",
+            "critial_hit": "2"
+        },
+        "localized_name": "SkullBaluchimon",
+        "prevo": [
+            {
+                "name": "Symbare Angoramon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Free Adult"
+                    ]
+                }
+            },
+            {
+                "name": "Porcupamon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "363",
+        "name": "Waru Monzaemon",
+        "short_name": "warumonzae",
+        "stage": "V",
+        "attribute": "Virus",
+        "activity_type": "Lazy",
+        "stats": {
+            "bp": "2100",
+            "hp": "2640",
+            "ap": "800",
+            "critial_hit": "5"
+        },
+        "localized_name": "WaruMonzaemon",
+        "prevo": [
+            {
+                "name": "Komondomon",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "2,000+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Symbare Angoramon",
+                "requirements": {
+                    "jogress": "Jogress with Virus Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "365",
+        "name": "Anubimon",
+        "short_name": "anubi",
+        "stage": "VI",
+        "attribute": "Vaccine",
+        "activity_type": "Stoic",
+        "stats": {
+            "bp": "4675",
+            "hp": "3520",
+            "ap": "1120",
+            "critial_hit": "1"
+        },
+        "localized_name": "Anubismon",
+        "prevo": [
+            {
+                "name": "Lamortmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Data Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Skull Baluchimon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Waru Monzaemon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "366",
+        "name": "Saber Leomon",
+        "short_name": "saberleo",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "3080",
+            "ap": "960",
+            "critial_hit": "2"
+        },
+        "localized_name": "SaberLeomon",
+        "prevo": [
+            {
+                "name": "Lamortmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio",
+                        "Jogress with Free Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Grappu Leomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Waru Monzaemon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "367",
+        "name": "Griffomon",
+        "short_name": "griffo",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "960",
+            "critial_hit": "3"
+        },
+        "localized_name": "Gryphonmon",
+        "prevo": [
+            {
+                "name": "Lamortmon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            },
+            {
+                "name": "Grappu Leomon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Skull Baluchimon",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "5,000+ Vital Values",
+                        "15+ Battles",
+                        "60%+ Win Ratio"
+                    ]
+                }
+            }
+        ]
+    }
+]
