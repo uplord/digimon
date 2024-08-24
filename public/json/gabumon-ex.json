@@ -1,0 +1,894 @@
+[
+  {
+      "name": "Egg",
+      "stage": "Egg"
+  },
+  {
+      "id": "204",
+      "name": "Punimon",
+      "short_name": "puni",
+      "stage": "I",
+      "attribute": "Free",
+      "activity_type": "Normal",
+      "stats": {
+          "bp": 0,
+          "hp": 0,
+          "ap": 0,
+          "critial_hit": 0
+      }
+  },
+  {
+      "id": "205",
+      "name": "Tunomon",
+      "short_name": "tuno",
+      "stage": "II",
+      "attribute": "Free",
+      "activity_type": "Normal",
+      "stats": {
+          "bp": 0,
+          "hp": 0,
+          "ap": 0,
+          "critial_hit": 0
+      },
+      "localized_name": "Tsunomon",
+      "prevo": [
+          {
+              "name": "Punimon",
+              "dim": "Gabumon EX, True Shadow Howl, Wolf Howl, Shadow Howl",
+              "requirements": {
+                  "deets": [
+                      "No requirements"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "206",
+      "name": "Gabumon",
+      "short_name": "gabu",
+      "stage": "III",
+      "attribute": "Data",
+      "activity_type": "Active",
+      "stats": {
+          "bp": "2400",
+          "hp": "1800",
+          "ap": "700",
+          "critial_hit": "2"
+      },
+      "prevo": [
+          {
+              "name": "Tunomon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "No requirements"
+                  ]
+              }
+          },
+          {
+              "name": "Tunomon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "1,200+ Vital Values"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "207",
+      "name": "Garurumon",
+      "short_name": "garuru",
+      "stage": "IV",
+      "attribute": "Vaccine",
+      "activity_type": "Active",
+      "stats": {
+          "bp": "3000",
+          "hp": "2000",
+          "ap": "900",
+          "critial_hit": "2"
+      },
+      "prevo": [
+          {
+              "name": "Gabumon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "5+ Trophies",
+                      "1,200+ Vital Values",
+                      "8+ Battles"
+                  ]
+              }
+          },
+          {
+              "name": "Gabumon (Black)",
+              "dim": "True Shadow Howl",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "1,300+ Vital Values",
+                      "8+ Battles"
+                  ]
+              }
+          },
+          {
+              "name": "Gabumon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "1,300+ Vital Values",
+                      "8+ Battles"
+                  ]
+              }
+          },
+          {
+              "name": "Tinpet",
+              "dim": "Medarot",
+              "requirements": {
+                  "deets": [
+                      "8+ Trophies",
+                      "900+ Vital Values",
+                      "5+ Battles"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "208",
+      "name": "Gorimon",
+      "short_name": "gori",
+      "stage": "IV",
+      "attribute": "Data",
+      "activity_type": "Normal",
+      "stats": {
+          "bp": "2400",
+          "hp": "1600",
+          "ap": "900",
+          "critial_hit": "3"
+      },
+      "prevo": [
+          {
+              "name": "Gabumon",
+              "requirements": {
+                  "deets": [
+                      "5+ Trophies",
+                      "800+ Vital Values",
+                      "3+ Battles"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "209",
+      "name": "Dokugumon",
+      "short_name": "dokugu",
+      "stage": "IV",
+      "attribute": "Virus",
+      "activity_type": "Stoic",
+      "stats": {
+          "bp": "2400",
+          "hp": "2000",
+          "ap": "600",
+          "critial_hit": "1"
+      },
+      "prevo": [
+          {
+              "name": "Gabumon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "3+ Trophies",
+                      "500+ Vital Values"
+                  ]
+              }
+          },
+          {
+              "name": "Zubamon",
+              "dim": "Ryudamon",
+              "requirements": {
+                  "deets": [
+                      "0-7 Trophies",
+                      "0-899 Vital Values",
+                      "0-4 Battles"
+                  ]
+              }
+          },
+          {
+              "name": "Ryudamon",
+              "dim": "Ryudamon",
+              "requirements": {
+                  "deets": [
+                      "0-7 Trophies",
+                      "0-899 Vital Values",
+                      "0-4 Battles"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "193",
+      "name": "Algomon (Adult)",
+      "short_name": "algo_iv",
+      "stage": "IV",
+      "attribute": "Virus",
+      "activity_type": "Lazy",
+      "stats": {
+          "bp": "1800",
+          "hp": "1600",
+          "ap": "600",
+          "critial_hit": "5"
+      },
+      "localized_name": "Argomon (Champion)",
+      "prevo": [
+          {
+              "name": "Agumon",
+              "dim": "Agumon EX",
+              "requirements": {
+                  "deets": [
+                      "5+ Trophies",
+                      "800+ Vital Values",
+                      "3+ Battles"
+                  ]
+              }
+          },
+          {
+              "name": "Gabumon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "0-2 Trophies",
+                      "0-499 Vital Values"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "210",
+      "name": "Were Garurumon",
+      "short_name": "weregaruru",
+      "stage": "V",
+      "attribute": "Vaccine",
+      "activity_type": "Active",
+      "stats": {
+          "bp": "2450",
+          "hp": "2640",
+          "ap": "800",
+          "critial_hit": "2"
+      },
+      "localized_name": "WereGarurumon",
+      "prevo": [
+          {
+              "name": "Garurumon",
+              "dim": "Gabumon EX, Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "12+ Trophies",
+                      "3,000+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Algomon (Adult)",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "12+ Trophies",
+                      "3,000+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Gorimon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine or Free Adult\r\n"
+              }
+          },
+          {
+              "name": "Dokugumon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine or Free Adult\r\n"
+              }
+          },
+          {
+              "name": "Dorulumon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "12+ Trophies",
+                      "3,000+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Drimogemon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine, Virus or Free Adult\r\n"
+              }
+          },
+          {
+              "name": "Garurumon (Black)",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "211",
+      "name": "Parrotmon",
+      "short_name": "parrot",
+      "stage": "V",
+      "attribute": "Vaccine",
+      "activity_type": "Indoor",
+      "stats": {
+          "bp": "2100",
+          "hp": "2200",
+          "ap": "600",
+          "critial_hit": "4"
+      },
+      "prevo": [
+          {
+              "name": "Gorimon",
+              "requirements": {
+                  "deets": [
+                      "12+ Trophies",
+                      "3,000+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Dokugumon",
+              "requirements": {
+                  "deets": [
+                      "12+ Trophies",
+                      "3,000+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Garurumon",
+              "requirements": {
+                  "jogress": "Jogress with Data or Free Adult\r\n"
+              }
+          },
+          {
+              "name": "Algomon (Adult)",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine or Free Adult\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "212",
+      "name": "Valvemon",
+      "short_name": "valve",
+      "stage": "V",
+      "attribute": "Data",
+      "activity_type": "Lazy",
+      "stats": {
+          "bp": "2450",
+          "hp": "2200",
+          "ap": "600",
+          "critial_hit": "5"
+      },
+      "prevo": [
+          {
+              "name": "Garurumon",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "2,500+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Gorimon",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "2,500+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Dokugumon",
+              "requirements": {
+                  "jogress": "Jogress with Data Adult\r\n"
+              }
+          },
+          {
+              "name": "Algomon (Adult)",
+              "requirements": {
+                  "jogress": "Jogress with Data Adult\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "213",
+      "name": "Big Mamemon",
+      "short_name": "bigmame",
+      "stage": "V",
+      "attribute": "Data",
+      "activity_type": "Normal",
+      "stats": {
+          "bp": "2100",
+          "hp": "1760",
+          "ap": "1000",
+          "critial_hit": "3"
+      },
+      "localized_name": "BigMamemon",
+      "prevo": [
+          {
+              "name": "Dokugumon",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "2,500+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Algomon (Adult)",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "2,500+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "214",
+      "name": "Orochimon",
+      "short_name": "orochi",
+      "stage": "V",
+      "attribute": "Virus",
+      "activity_type": "Stoic",
+      "stats": {
+          "bp": "2450",
+          "hp": "2200",
+          "ap": "600",
+          "critial_hit": "1"
+      },
+      "prevo": [
+          {
+              "name": "Gorimon",
+              "requirements": {
+                  "deets": [
+                      "6+ Trophies",
+                      "2,000+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Dokugumon",
+              "requirements": {
+                  "deets": [
+                      "6+ Trophies",
+                      "2,000+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Garurumon",
+              "requirements": {
+                  "jogress": "Jogress with Virus Adult\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "215",
+      "name": "Waru Seadramon",
+      "short_name": "waruseadra",
+      "stage": "V",
+      "attribute": "Virus",
+      "activity_type": "Normal",
+      "stats": {
+          "bp": "1750",
+          "hp": "2200",
+          "ap": "800",
+          "critial_hit": "3"
+      },
+      "localized_name": "WaruSeadramon",
+      "prevo": [
+          {
+              "name": "Garurumon",
+              "requirements": {
+                  "deets": [
+                      "6+ Trophies",
+                      "2,000+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Algomon (Adult)",
+              "requirements": {
+                  "deets": [
+                      "6+ Trophies",
+                      "2,000+ Vital Values",
+                      "10+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Gorimon",
+              "requirements": {
+                  "jogress": "Jogress with Virus Adult\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "217",
+      "name": "Cres Garurumon",
+      "short_name": "cresgaruru",
+      "stage": "VI",
+      "attribute": "Data",
+      "activity_type": "Indoor",
+      "stats": {
+          "bp": "4250",
+          "hp": "2640",
+          "ap": "960",
+          "critial_hit": "4"
+      },
+      "localized_name": "CresGarurumon",
+      "prevo": [
+          {
+              "name": "Were Garurumon",
+              "requirements": {
+                  "deets": [
+                      "15+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Valvemon",
+              "requirements": {
+                  "deets": [
+                      "15+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Big Mamemon",
+              "requirements": {
+                  "deets": [
+                      "15+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Orochimon",
+              "requirements": {
+                  "deets": [
+                      "15+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Waru Seadramon",
+              "requirements": {
+                  "deets": [
+                      "15+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Parrotmon",
+              "requirements": {
+                  "jogress": "Jogress with Data or Free Perfect\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "218",
+      "name": "Nidhoggmon",
+      "short_name": "nidhogg",
+      "stage": "VI",
+      "attribute": "Virus",
+      "activity_type": "Stoic",
+      "stats": {
+          "bp": "4675",
+          "hp": "3520",
+          "ap": "960",
+          "critial_hit": "1"
+      },
+      "prevo": [
+          {
+              "name": "Parrotmon",
+              "requirements": {
+                  "deets": [
+                      "Stage 15 cleared",
+                      "20+ Trophies",
+                      "7,000+ Vital Values",
+                      "25+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Big Mamemon",
+              "requirements": {
+                  "deets": [
+                      "Stage 15 cleared",
+                      "20+ Trophies",
+                      "7,000+ Vital Values",
+                      "25+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Orochimon",
+              "requirements": {
+                  "deets": [
+                      "Stage 15 cleared",
+                      "20+ Trophies",
+                      "7,000+ Vital Values",
+                      "25+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Were Garurumon",
+              "requirements": {
+                  "deets": [
+                      "Stage 15 cleared",
+                      "Jogress with Virus Perfect"
+                  ]
+              }
+          },
+          {
+              "name": "Valvemon",
+              "requirements": {
+                  "deets": [
+                      "Stage 15 cleared",
+                      "Jogress with Virus Perfect"
+                  ]
+              }
+          },
+          {
+              "name": "Waru Seadramon",
+              "requirements": {
+                  "deets": [
+                      "Stage 15 cleared",
+                      "Jogress with Data Perfect"
+                  ]
+              }
+          }
+      ]
+  },
+  {
+      "id": "216",
+      "name": "Metal Garurumon",
+      "short_name": "metalgaruru",
+      "stage": "VI",
+      "attribute": "Data",
+      "activity_type": "Active",
+      "stats": {
+          "bp": "3825",
+          "hp": "3080",
+          "ap": "800",
+          "critial_hit": "2"
+      },
+      "prevo": [
+          {
+              "name": "Were Garurumon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "20+ Trophies",
+                      "5,000+ Vital Values",
+                      "20+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Parrotmon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "20+ Trophies",
+                      "5,000+ Vital Values",
+                      "20+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Valvemon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "20+ Trophies",
+                      "5,000+ Vital Values",
+                      "20+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Waru Seadramon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "deets": [
+                      "20+ Trophies",
+                      "5,000+ Vital Values",
+                      "20+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Big Mamemon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+              }
+          },
+          {
+              "name": "Orochimon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+              }
+          },
+          {
+              "name": "Were Garurumon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Pandamon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Were Garurumon (Black)",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "10+ Trophies",
+                      "4,500+ Vital Values",
+                      "15+ Battles",
+                      "50%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Jaeger Dorulumon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "jogress": "Jogress with Vaccine, Data or Free Perfect\r\n"
+              }
+          }
+      ]
+  },
+  {
+      "id": "201",
+      "name": "Omegamon",
+      "short_name": "omega",
+      "stage": "VI",
+      "attribute": "Vaccine",
+      "activity_type": "Normal",
+      "stats": {
+          "bp": "5100",
+          "hp": "3080",
+          "ap": "1120",
+          "critial_hit": "3"
+      },
+      "localized_name": "Omnimon",
+      "prevo": [
+          {
+              "name": "War Greymon",
+              "dim": "Agumon EX",
+              "requirements": {
+                  "jogress": "Jogress with Metal Garurumon  from the Gabumon Dim\r\n"
+              }
+          },
+          {
+              "name": "Metal Garurumon",
+              "dim": "Gabumon EX",
+              "requirements": {
+                  "jogress": "Jogress with War Greymon  from the Agumon Dim\r\n"
+              }
+          },
+          {
+              "name": "War Greymon",
+              "dim": "Dinosaur Roar",
+              "requirements": {
+                  "deets": [
+                      "30+ Trophies",
+                      "8,500+ Vital Values",
+                      "30+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          },
+          {
+              "name": "Metal Garurumon",
+              "dim": "Wolf Howl",
+              "requirements": {
+                  "deets": [
+                      "30+ Trophies",
+                      "8,500+ Vital Values",
+                      "30+ Battles",
+                      "70%+ Win Ratio"
+                  ]
+              }
+          }
+      ]
+  }
+]
