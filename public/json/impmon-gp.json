@@ -1,0 +1,308 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "170",
+        "name": "Kiimon",
+        "short_name": "kii",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "171",
+        "name": "Yaamon",
+        "short_name": "yaa",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "prevo": [
+            {
+                "name": "Kiimon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "172",
+        "name": "Impmon",
+        "short_name": "imp",
+        "stage": "III",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "3"
+        },
+        "prevo": [
+            {
+                "name": "Yaamon",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "174",
+        "name": "Wizarmon",
+        "short_name": "wizar",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "3"
+        },
+        "localized_name": "Wizardmon",
+        "prevo": [
+            {
+                "name": "Ghostmon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "deets": [
+                        "8+ Trophies",
+                        "900+ Vital Values",
+                        "5+ Battles"
+                    ]
+                }
+            },
+            {
+                "name": "Impmon",
+                "dim": "Impmon GP",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "177",
+        "name": "Baalmon",
+        "short_name": "baal",
+        "stage": "V",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "2450",
+            "hp": "2200",
+            "ap": "800",
+            "critial_hit": "3"
+        },
+        "localized_name": "Reapmon",
+        "prevo": [
+            {
+                "name": "Wizarmon",
+                "dim": "Dynasty of the Evil, Impmon GP",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Devimon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Saberdramon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "jogress": "Jogress with Data Adult\r\n"
+                }
+            },
+            {
+                "name": "Bakemon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine Adult\r\n"
+                }
+            },
+            {
+                "name": "Wizarmon",
+                "dim": "Impmon GP",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine, Virus or Free Adult\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "185",
+        "name": "Beelzebumon (2010)",
+        "short_name": "beelzebu_2010",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1280",
+            "critial_hit": "3"
+        },
+        "localized_name": "Beelzemon (2010)",
+        "prevo": [
+            {
+                "name": "Baalmon",
+                "dim": "Dynasty of the Evil, Impmon GP",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Cyberdramon (2010)",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Jokermon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "deets": [
+                        "15+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Pumpmon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Vamdemon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Fantomon",
+                "dim": "Dynasty of the Evil",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            },
+            {
+                "name": "Baalmon",
+                "dim": "Impmon GP",
+                "requirements": {
+                    "jogress": "Jogress with Data Perfect\r\n"
+                }
+            }
+        ]
+    },
+    {
+        "id": "297",
+        "name": "Beelzebumon",
+        "short_name": "beelzebu",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "2640",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "localized_name": "Beelzemon",
+        "prevo": [
+            {
+                "name": "Baalmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Vaccine Perfect"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "298",
+        "name": "Beelzebumon: Blast Mode",
+        "short_name": "beelzebu_b",
+        "stage": "VI",
+        "attribute": "Virus",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4675",
+            "hp": "3080",
+            "ap": "1440",
+            "critial_hit": "2"
+        },
+        "localized_name": "Beelzemon: Blast Mode",
+        "prevo": [
+            {
+                "name": "Baalmon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,309 @@
+[
+    {
+        "name": "Egg",
+        "stage": "Egg"
+    },
+    {
+        "id": "300",
+        "name": "Relemon",
+        "short_name": "rele",
+        "stage": "I",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        }
+    },
+    {
+        "id": "301",
+        "name": "Pokomon",
+        "short_name": "poko",
+        "stage": "II",
+        "attribute": "Free",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": 0,
+            "hp": 0,
+            "ap": 0,
+            "critial_hit": 0
+        },
+        "localized_name": "Viximon",
+        "prevo": [
+            {
+                "name": "Relemon",
+                "dim": "Rena EX, Rena GP",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "302",
+        "name": "Renamon",
+        "short_name": "rena",
+        "stage": "III",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1800",
+            "ap": "700",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Pokomon",
+                "dim": "Rena EX, Rena GP",
+                "requirements": {
+                    "deets": [
+                        "No requirements"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "303",
+        "name": "Kyubimon",
+        "short_name": "kyubi",
+        "stage": "IV",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2400",
+            "hp": "1600",
+            "ap": "900",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Renamon",
+                "dim": "Rena EX, Rena GP",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "1,300+ Vital Values",
+                        "8+ Battles"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "304",
+        "name": "Taomon",
+        "short_name": "tao",
+        "stage": "V",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "2450",
+            "hp": "1760",
+            "ap": "1000",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Kyubimon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Lynxmon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "2,500+ Vital Values",
+                        "10+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Youkomon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Ice Devimon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "jogress": "Jogress with Free Adult\r\n"
+                }
+            },
+            {
+                "name": "Kyubimon",
+                "dim": "Renamon GP",
+                "requirements": {
+                    "deets": [
+                        "12+ Trophies",
+                        "3,000+ Vital Values",
+                        "15+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Vaccine",
+                        "Virus or Free Adult"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "305",
+        "name": "Sakuyamon",
+        "short_name": "sakuya",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Active",
+        "stats": {
+            "bp": "4250",
+            "hp": "3080",
+            "ap": "1280",
+            "critial_hit": "2"
+        },
+        "prevo": [
+            {
+                "name": "Kumbhiramon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Taomon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Doumon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio"
+                    ]
+                }
+            },
+            {
+                "name": "Vikaralamon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "jogress": "Jogress with Data or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Caturamon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Indaramon",
+                "dim": "Renamon EX",
+                "requirements": {
+                    "jogress": "Jogress with Vaccine or Free Perfect\r\n"
+                }
+            },
+            {
+                "name": "Taomon",
+                "dim": "Renamon GP",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "5,000+ Vital Values",
+                        "20+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Virus Perfect"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "306",
+        "name": "Kuzuhamon",
+        "short_name": "kuzuha",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Indoor",
+        "stats": {
+            "bp": "4250",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "4"
+        },
+        "prevo": [
+            {
+                "name": "Taomon",
+                "requirements": {
+                    "deets": [
+                        "10+ Trophies",
+                        "4,500+ Vital Values",
+                        "15+ Battles",
+                        "50%+ Win Ratio",
+                        "Jogress with Vaccine Perfect"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "307",
+        "name": "Sakuyamon: Miko Mode",
+        "short_name": "sakuya_m",
+        "stage": "VI",
+        "attribute": "Data",
+        "activity_type": "Normal",
+        "stats": {
+            "bp": "5100",
+            "hp": "2640",
+            "ap": "1120",
+            "critial_hit": "3"
+        },
+        "localized_name": "Sakuyamon: Maid Mode",
+        "prevo": [
+            {
+                "name": "Taomon",
+                "requirements": {
+                    "deets": [
+                        "20+ Trophies",
+                        "7,000+ Vital Values",
+                        "25+ Battles",
+                        "70%+ Win Ratio",
+                        "Jogress with Free Perfect"
+                    ]
+                }
+            }
+        ]
+    }
+]
